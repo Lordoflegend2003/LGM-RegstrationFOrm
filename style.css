@@ -1,0 +1,177 @@
+*{
+  padding: 25px 0px;
+  margin: 0;
+  box-sizing: border-box;  
+  background-color: rgb(174, 237, 251);
+}
+
+h1{
+    text-align: center;
+    word-spacing: 5px; 
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+label{
+    background: none;
+    display: block;
+    font-weight: 100;
+    font-size: 17px;
+    float: left;
+    padding: 5px 0;
+}
+
+
+#mainform{
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 0 0 0 100px;
+    padding: 25px 50px;
+}
+
+ input{
+    width: 100%;
+    border: none;
+    background-color: rgb(221, 222, 222);
+    padding: 20px;
+    align-items: center;
+}
+
+input[type="text"]:focus{
+    outline: none;
+} 
+
+
+.buttonc{
+    background-color: white;
+    margin: 0 190px;
+}
+
+
+button{
+    background-color: rgba(38, 58, 204, 0.61);
+    display : inline-block;
+    border: none;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: turquoise;
+    border: none;
+}
+ h4{
+    padding: 10px 0px;
+    font-weight: lighter;
+    font-size: 17px;
+    background-color: white;
+    margin-bottom: 10px;
+
+ }
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"]
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type="file"]{
+    padding: 20px;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    margin-left: 160px;
+}
+
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#gap{
+    display: block;
+    position: relative;
+    padding: 0 30px;;
+
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+
+
+
+
+}
+
+
+
+#res {
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    margin: 0 0 0 100px;
+    border-radius: 10px;
+    padding: 30px 30px;
+
+}
+
+#res h2 {
+    margin-bottom: 10px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+
+}
+
+#res p {
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 30px;
+}
+
+span{
+    padding:  0 70px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+}
+#resimage {
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 140px;
+    background-color: white;
+} 
+
+
+
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form id = "mainform">
+        <label for="">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your Name"/><br><br>
+
+        <label for="">Email:</label>
+        <input type="email" name ="email" id="email" placeholder="Enter the Mailid"><br><br>
+
+        <label for="">Phone number:</label>
+        <input type="number" name="num" id="num" placeholder="Enter the phone number"><br><br>
+
+        <label for="">Rollno:</label>
+        <input type="number" name="rol" id="roln" placeholder="Enter the rollno"><br><br>
+
+
+        <h4>Gender:</h4>
+        <label id = "gap" for="male">Male:
+        <input type="radio" id="male" name="gender" value="male" required>
+        </label>
+
+        <label id = "gap"for="female">Female:
+        <input type="radio" id="female" name="gender" value="female" required>
+        </label>
+
+        <label id = "gap" for="other">Other:
+        <input type="radio" id="other" name="gender" value="other" required>
+        </label><br><br>
+
+        <h4>Skills:</h4>
+        <label  id = "gap"for="java">Java
+        <input type="checkbox" id="java" name="languages" value="java">
+        </label>
+
+
+       <label  id = "gap"for="python">Python
+        <input type="checkbox" id="python" name="languages" value="python">
+       </label>
+
+       <label  id = "gap"for="c/c++">C/C++
+        <input type="checkbox" id="c/c++" name="languages" value="c/c++">
+        </label>
+        <br></br>   
+
+
+
+
+        <label for="">Profile Image:</label>
+        <input type="file" name="" id="image"><br><br>
+
+
+        <div class="buttonc">
+            <button type="submit" id="submit" onclick="submit">Submit</button>
+            <button type="reset" id="cancel">Cancel</button>
+        </div>
+    </form>
+
+
+    <div id="res" class="hidden">
+        <h2>Registration Details:</h2>
+        <p>Name: <span id="resname"></span></p>
+        <p>Email: <span id="resemail"></span></p>
+        <p>Phone no: <span id="resphone"></span></p>
+        <p>Rollno: <span id="resroll"></span></p>
+        <p>Gender: <span id="resgen"></span></p>
+        <p>Skills: <span id="resskill"></span></p>
+        <p>Profile Image:</p>
+        <img id="resimage" src="#" alt="Profile Image">
+    </div>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
